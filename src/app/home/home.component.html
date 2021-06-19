@@ -1,0 +1,20 @@
+<div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <h1>Products</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-2">
+            <button type="button" class="btn btn-warning" style="text-align: center;" routerLink="product">Create new
+                product</button>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <app-product-details [products]="products" (deleteProduct)="deleteProduct($event)"></app-product-details>
+    </div>
+</div>

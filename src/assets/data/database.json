@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "headphone",
+      "description": "boat",
+      "price": "255",
+      "quantity": "1",
+      "id": 4
+    },
+    {
+      "name": "laptop",
+      "description": "i5",
+      "price": "20000",
+      "quantity": "1",
+      "id": 5
+    },
+    {
+      "name": "ups",
+      "description": "powerbackup",
+      "price": "2500",
+      "quantity": "1",
+      "id": 6
+    },
+    {
+      "name": "fan",
+      "description": "2500rpm",
+      "price": "2800",
+      "quantity": "2",
+      "id": 7
+    },
+    {
+      "name": "Mouse",
+      "description": "wireless",
+      "price": "500",
+      "quantity": "1",
+      "id": 8
+    },
+    {
+      "name": "bag",
+      "description": "laptop",
+      "price": "1000",
+      "quantity": "1",
+      "id": 9
+    }
+  ]
+}
