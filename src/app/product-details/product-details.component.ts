@@ -1,6 +1,6 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit, Output , EventEmitter} from '@angular/core';
 import { Router } from '@angular/router';
-import { EventEmitter } from 'stream';
+
 import { CrudService } from '../crud.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { CrudService } from '../crud.service';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-@Input() Products;
+@Input() products;
 @Output() deleteProduct=new EventEmitter();
 
     constructor(public crudService: CrudService,  private router: Router) { }
